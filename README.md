@@ -1,16 +1,16 @@
-# 🛒 Shopping Cart App
+# Aplikasi Shopping Cart
 
 Aplikasi **Shopping Cart sederhana** yang dibuat menggunakan **Flutter** dan **Dart** sebagai Tugas Take Home 1. Aplikasi menampilkan daftar produk dalam keranjang belanja dan memungkinkan pengguna berinteraksi dengan produk tersebut melalui berbagai gesture.
 
-## 👤 Identitas
+## Identitas
 
 - **Nama:** Teresa
 - **NIM:** 825240031
 
-## 📸 Tampilan Aplikasi
-`![Tampilan Awal](screenshots/tampilan_awal.png)`
+## Tampilan Aplikasi
+![Tampilan Awal](screenshots/tampilan_awal.png)
 
-## ✨ Fitur
+## Fitur
 
 | No | Fitur | Keterangan |
 |----|-------|------------|
@@ -19,7 +19,7 @@ Aplikasi **Shopping Cart sederhana** yang dibuat menggunakan **Flutter** dan **D
 | 3 | Total belanja | Menampilkan jumlah barang dan total harga yang otomatis berubah mengikuti quantity |
 | 4 | Badge keranjang | Jumlah barang ditampilkan pada ikon Keranjang di bottom navigation |
 
-## 👆 Interaksi Pengguna
+## Interaksi Pengguna
 
 | Interaksi | Respons Tampilan |
 |-----------|------------------|
@@ -29,7 +29,7 @@ Aplikasi **Shopping Cart sederhana** yang dibuat menggunakan **Flutter** dan **D
 | Tombol **+ / -** | Menambah atau mengurangi quantity produk (minimal 1). Total harga dan jumlah barang ikut berubah |
 | **Bottom navigation** | Warna item yang diklik berubah menjadi biru (hanya tampilan, tanpa pindah halaman) |
 
-## 🧩 Konsep Flutter yang Digunakan
+## Konsep Flutter yang Digunakan
 
 - `StatelessWidget` dan `StatefulWidget`
 - `setState()` untuk memperbarui tampilan
@@ -42,7 +42,7 @@ Aplikasi **Shopping Cart sederhana** yang dibuat menggunakan **Flutter** dan **D
 
 > Aplikasi ini **tidak** menggunakan database, API, Firebase, maupun navigasi ke halaman lain. Seluruh data produk disimpan di dalam kode.
 
-## 📁 Struktur Project
+## Struktur Project
 
 ```
 tugastakehome1_825240031/
@@ -56,7 +56,7 @@ tugastakehome1_825240031/
 └── pubspec.yaml
 ```
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 1. Pastikan **Flutter SDK** sudah terpasang. Cek dengan perintah:
    ```bash
@@ -76,7 +76,7 @@ tugastakehome1_825240031/
    flutter run
    ```
 
-## 🖼️ Catatan Gambar Produk
+## Catatan Gambar Produk
 
 Gambar produk dibaca dari folder `assets/images/` dan sudah didaftarkan pada `pubspec.yaml`:
 
